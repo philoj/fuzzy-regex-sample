@@ -1,0 +1,3 @@
+- Sample commands 
+    - `(venv)$ python ./regex_fuzzy_distance.py -p 'DEF LLC'  'ABC DEF LLC' -t 'ABC! DEF LLP'`
+    - Override max distance using -m:`(venv)$ python ./regex_fuzzy_distance.py -p 'DEF LLP'  'ABC DEF  LLP' -t 'aBC! deF lLp' -m 4'`
